@@ -1,0 +1,14 @@
+# macOS junk
+.DS_Store
+
+# Compiled output: anyone can rebuild it from the .c files, and binaries bloat the repo
+*.o
+*.out
+*.dSYM/
+ch01_tutorial/ex1-3_FahTabelHeading
+ch01_tutorial/ex1-4_CelTabel
+ch01_tutorial/sec1-02-1_FahTabel
+ch01_tutorial/sec1-01-1_hello
+
+# Private tutor instructions (job details), keep off GitHub
+CLAUDE.md
