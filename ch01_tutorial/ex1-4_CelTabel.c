@@ -1,3 +1,4 @@
+// K&R Ex 1-4: Celsius -> Fahrenheit table (the reverse of 1-3).
 #include <stdio.h>
 
 int main(){

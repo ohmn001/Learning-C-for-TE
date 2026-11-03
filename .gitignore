@@ -12,3 +12,8 @@ ch01_tutorial/sec1-01-1_hello
 
 # Private tutor instructions (job details), keep off GitHub
 CLAUDE.md
+
+# Compiled programs in chapter folders: files with no extension (keeps .c, .md, .txt)
+ch*/*
+!ch*/*.*
+!ch*/

@@ -1,3 +1,4 @@
+
 # Progress: K&R C for Delta R&D Testing Engineer (Bangpoo)
 
 Status: [ ] not started  [~] in progress  [x] done
@@ -36,16 +37,16 @@ Why it matters: loops, chars, arrays, and reading input. Everything later builds
 - [x] 🌱 1.2 Variables and Arithmetic Expressions
   - [x] 🧩 ⭐ Ex 1-3 Add a heading to the temperature table (formatted output, like a result table)
   - [x] 🧩 Ex 1-4 Celsius to Fahrenheit table
-- [ ] 🌱 1.3 The for Statement
-  - [ ] 🧩 Ex 1-5 Print the temperature table in reverse order
-- [ ] 🌱 1.4 Symbolic Constants
-- [ ] 🌱 1.5 Character Input and Output
-  - [ ] 🐣 1.5.1 File Copying
-    - [ ] 🧩 Ex 1-6 Check that `getchar() != EOF` is 0 or 1
-    - [ ] 🧩 Ex 1-7 Print the value of EOF
-  - [ ] 🐣 1.5.2 Character Counting
-  - [ ] 🐣 1.5.3 Line Counting
-    - [ ] 🧩 Ex 1-8 Count blanks, tabs, newlines
+- [x] 🌱 1.3 The for Statement
+  - [x] 🧩 Ex 1-5 Print the temperature table in reverse order
+- [x] 🌱 1.4 Symbolic Constants
+- [x] 🌱 1.5 Character Input and Output
+  - [x] 🐣 1.5.1 File Copying
+    - [x] 🧩 Ex 1-6 Check that `getchar() != EOF` is 0 or 1
+    - [x] 🧩 Ex 1-7 Print the value of EOF
+  - [x] 🐣 1.5.2 Character Counting
+  - [x] 🐣 1.5.3 Line Counting
+    - [x] 🧩 Ex 1-8 Count blanks, tabs, newlines
   - [ ] 🐣 1.5.4 Word Counting
     - [ ] 🧩 Ex 1-9 Replace many blanks with one blank
     - [ ] 🧩 Ex 1-10 Show tab, backspace, backslash as `\t`, `\b`, `\\`
@@ -54,8 +55,8 @@ Why it matters: loops, chars, arrays, and reading input. Everything later builds
 - [ ] 🌱 1.6 Arrays
   - [ ] 🧩 ⭐ Ex 1-13 Histogram of word lengths
   - [ ] 🧩 ⭐ Ex 1-14 Histogram of character frequencies
-- [ ] 🌱 1.7 Functions
-  - [ ] 🧩 Ex 1-15 Rewrite the temperature conversion as a function
+- [x] 🌱 1.7 Functions
+  - [x] 🧩 Ex 1-15 Rewrite the temperature conversion as a function
 - [ ] 🌱 1.8 Arguments - Call by Value
 - [ ] 🌱 1.9 Character Arrays
   - [ ] 🧩 ⭐ Ex 1-16 Longest line of any length
@@ -282,3 +283,6 @@ Build in this order. Each one reuses the one before.
 | Date | What I did | Time (h) | Stuck on | Next step |
 |------|-----------|----------|----------|-----------|
 | 2026-11-02 | Set up folders, CLAUDE.md, JD saved, upgraded this file |1 |- | Ch1: ex 1-3 |
+| 2026-11-02 | File copy (getchar/putchar), EOF, bytes vs bits, ex 1-6 | - | EOF vs the result of `!=` (-1 vs 0); counting bytes | Ex 1-7 (print EOF value) |
+| 2026-11-03 | Do ex1-13 เกี่ยวกับนับคำinput เเล้วมาสร้างกราฟ |1 |นึกไม่ออกว่าจะเขียนโปรเเกรมยังไงเพื่อเเก้โจทย์ปัญหานี้ | ทบทวนconcept,วิธีคิดในการเเก้ปัญหา ที่สำคัญ |
+| 2026-11-03 | Do sec1-07-1Fn  |1 |  มองโค๊ดไม่ออก/เข้าใจช้า/ไล้loop i ช้าก่าจะเห็น pattern ว่ามันทำงานยังไง           |      ฝึกโจทย์การลูปเลขบ่อยๆ    |

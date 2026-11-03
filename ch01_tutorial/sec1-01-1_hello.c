@@ -1,3 +1,4 @@
+// K&R 1.1: smoke test. If this builds and runs, gcc and the setup work.
 #include <stdio.h>
 int main()
 {
